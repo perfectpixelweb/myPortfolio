@@ -1,0 +1,172 @@
+/*======= Responsive css====== */
+
+@media (max-width: 992px) {
+  
+    .nav-link {
+      font-size: 16px;
+    }
+  
+    /* hero section */
+    .left-hero{
+      width: 50%;
+    }
+    .right-hero{
+      width: 50%;
+    }
+  
+    .hero h1 {
+      font-size: 3.5rem;
+    }
+    .hero-title{
+      font-size: 1.6rem;
+    }
+  
+    /* service section */
+    .card-title {
+      font-size: 20px;
+    }
+  
+    
+  }
+  /*============ Medium Device =============*/
+
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      height: 100vh;
+      z-index: 100;
+    }
+    
+    .nav-branding{
+      font-size: 2.5rem;
+    }
+    .nav-item {
+      margin: 16px 0;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .nav-link {
+      color: #fff;
+    }
+  
+    /* hero section */
+  
+    .hero h1 {
+      font-size: 36px;
+    }
+  
+    .hero .container {
+      height: auto;
+      flex-direction: column;
+    }
+    .left-hero{
+        width: 100%;
+    }
+    .right-hero{
+        width: 100%;
+    }
+  
+    /* service section */
+    .service {
+      margin: 50px 0;
+    }
+    .card-item {
+      flex-direction: column;
+    }
+  
+    .title{
+      font-size: 30px;
+    }
+    .des{
+      font-size: 20px;
+    }
+  
+    /* Project */
+    .projects{
+      margin: 50px 0;
+    }
+    .project-item{
+      flex-direction: column;
+    }
+  
+    /* contact section */
+    .contact{
+      margin: 50px 0;
+    }
+    .contact-area{
+      flex-direction: column;
+    }
+    .contact-left{
+      width: 100%;
+    }
+    .contact-right{
+      width: 100%;
+    }
+  
+    /* About section */
+  
+    .about-content{
+      flex-direction: column;
+    }
+    .about-left{
+      width: 100%;
+    }
+  
+    .about-right{
+      width: 100%;
+    }
+  
+  }
+
+  /* =====For small device 576px =====*/
+
+  @media (max-width:576px){
+    html{
+      font-size: 57%;
+    }
+
+    .hero .right-hero img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .left-hero h1 {
+      font-size: 3rem;
+    }
+
+    .footer-flex{
+      justify-content: center;
+    }
+
+    .footer-right{
+        display: none;
+    }
+   
+  }
