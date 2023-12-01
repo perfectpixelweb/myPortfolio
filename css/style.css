@@ -119,7 +119,6 @@ a {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background: var(--logo-color);
 }
@@ -345,7 +344,7 @@ a {
 }
 
 .project-card:hover {
-  scale: 1.05;
+  transform: scale(1.1);
 }
 
 .pro-img {
@@ -609,11 +608,6 @@ textarea {
 
 .contact-right .input-text {
   margin-bottom: 30px;
-}
-
-button {
-  border: none;
-  outline: none;
 }
 
 .btn-send {
